@@ -20,7 +20,7 @@ class Dog {
                         ${bio}
                     </div>
                 </div>
-                <img class="dog-img" src=${avatar}">
+                <img class="dog-img" src="${avatar}">
                 <img id="like" class="badge" src="./images/badge-like.png">
                 <img id="nope" class="badge" src="./images/badge-nope.png">
             </div>`
