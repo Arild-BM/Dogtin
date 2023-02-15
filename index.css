@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 81px;
+}
+
+.icon {
+    height: 34px;
+}
+
+.logo {
+    height: 42px;
+}
+
+#card .dog-img {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) -11.44%, rgba(0, 0, 0, 0) 39.97%), url(dog3.jpg);
+    border-radius: 15px;
+    height: 751.44px;
+}
+
+#card .dog-img, .actions, header {
+    width: 534px;
+}
+
+#card {
+    position: relative;
+    width: 100%;
+}
+
+.dog-info {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 10px;
+}
+
+.badge {
+    display: none;
+    position: absolute;
+    width: 233.91px;
+    height: 116.26px;
+    left: 14px;
+    top: 121.96px;
+    transform: rotate(-30deg);
+}
+
+.like {
+    display: unset;
+}
+
+.nope {
+    display: unset;
+}
+
+button {
+    width: 91.87px;
+    height: 91.87px;
+    border-radius: 50px;
+    background: white;
+    border: none;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reject-button img {
+    width: 25.88px;
+    height: 25.88px;
+}
+
+#accept-button img {
+    width: 40.86px;
+    height: 36x;
+    padding-top: 5px;
+}
+
+#reject-button:hover {
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
+
+#accept-button:hover {
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 24.13px;
+}
